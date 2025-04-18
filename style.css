@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+body{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 13px;
+    background-color: #F6F5F6;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr .5fr .5fr 1fr 1fr;
+    gap: 32px;
+    justify-content: center;
+    align-content: center;
+    background-color: #F6F5F6;
+    margin: 75px 35px;
+}
+
+.card {
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: fit-content(100px) fit-content(100px) 1fr;
+    gap: 17px;
+}
+
+img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.daniel img {
+    border: 2px solid #A775F1;
+}
+
+.patrick img {
+    border: 2px solid #733FC8;
+}
+
+.grad {
+    font-size: 11px;
+}
+
+.excerpt {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%
+}
+
+.quote {
+    line-height: 140%;
+}
+
+.daniel {
+    background-color: #733FC8;
+    color: #EDE4FF;
+}
+
+.jonathan {
+    background-color: #48556A;
+    color: #E7EAEE;
+}
+
+.jeanette, .kira {
+    background-color: #fff;
+    color: #676D7E;
+}
+
+.patrick {
+    background-color: #19202D;
+    color: #E7EAEE
+}
